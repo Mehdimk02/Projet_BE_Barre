@@ -1,0 +1,17 @@
+
+State Machine - |top|mehdi:u0|mehdi_nios2_gen2_0:nios2_gen2_0|mehdi_nios2_gen2_0_cpu:cpu|mehdi_nios2_gen2_0_cpu_nios2_oci:the_mehdi_nios2_gen2_0_cpu_nios2_oci|mehdi_nios2_gen2_0_cpu_debug_slave_wrapper:the_mehdi_nios2_gen2_0_cpu_debug_slave_wrapper|mehdi_nios2_gen2_0_cpu_debug_slave_tck:the_mehdi_nios2_gen2_0_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
+
+State Machine - |top|mehdi:u0|AvalonVerin:f6_avalon_verin_0|Verin:CmpVerin|convertisseur_mcp:b2v_inst3|State
+Name State.etat4 State.etat3 State.etat2 State.etat1 State.etat0 
+State.etat0 0 0 0 0 0 
+State.etat1 0 0 0 1 1 
+State.etat2 0 0 1 0 1 
+State.etat3 0 1 0 0 1 
+State.etat4 1 0 0 0 1 

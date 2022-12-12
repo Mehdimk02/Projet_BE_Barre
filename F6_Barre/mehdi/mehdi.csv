@@ -1,0 +1,24 @@
+# system info mehdi on 2022.12.09.18:23:22
+system_info:
+name,value
+DEVICE,EP4CE22F17C6
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1670606594
+#
+#
+# Files generated for mehdi on 2022.12.09.18:23:22
+files:
+filepath,kind,attributes,module,is_top
+simulation/mehdi.vhd,VHDL,,mehdi,true
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+mehdi.F6_Avalon_Verin_0,mehdi_F6_Avalon_Verin_0
+mehdi.jtag_uart_0,mehdi_jtag_uart_0
+mehdi.nios2_gen2_0,mehdi_nios2_gen2_0
+mehdi.onchip_memory2_0,mehdi_onchip_memory2_0
+mehdi.pio_0,mehdi_pio_0
+mehdi.mm_interconnect_0,mehdi_mm_interconnect_0
+mehdi.irq_mapper,mehdi_irq_mapper
+mehdi.rst_controller,altera_reset_controller

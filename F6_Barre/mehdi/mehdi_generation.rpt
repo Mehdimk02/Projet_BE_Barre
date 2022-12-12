@@ -1,0 +1,101 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "C:\Users\Mehdi\Desktop\BE FINAL\F6_Barre\mehdi.qsys" --block-symbol-file --output-directory="C:\Users\Mehdi\Desktop\BE FINAL\F6_Barre\mehdi" --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading F6_Barre/mehdi.qsys
+Progress: Reading input file
+Progress: Adding F6_Avalon_Verin_0 [F6_Avalon_Verin 1.0]
+Progress: Parameterizing module F6_Avalon_Verin_0
+Progress: Adding clk_0 [clock_source 18.0]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.0]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pio_0 [altera_avalon_pio 18.0]
+Progress: Parameterizing module pio_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: mehdi.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "C:\Users\Mehdi\Desktop\BE FINAL\F6_Barre\mehdi.qsys" --synthesis=VHDL --output-directory="C:\Users\Mehdi\Desktop\BE FINAL\F6_Barre\mehdi\synthesis" --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading F6_Barre/mehdi.qsys
+Progress: Reading input file
+Progress: Adding F6_Avalon_Verin_0 [F6_Avalon_Verin 1.0]
+Progress: Parameterizing module F6_Avalon_Verin_0
+Progress: Adding clk_0 [clock_source 18.0]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.0]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pio_0 [altera_avalon_pio 18.0]
+Progress: Parameterizing module pio_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: mehdi.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: mehdi: Generating mehdi "mehdi" for QUARTUS_SYNTH
+Info: F6_Avalon_Verin_0: "mehdi" instantiated F6_Avalon_Verin "F6_Avalon_Verin_0"
+Info: jtag_uart_0: Starting RTL generation for module 'mehdi_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/18.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=mehdi_jtag_uart_0 --dir=C:/Users/Mehdi/AppData/Local/Temp/alt9335_509337511853849415.dir/0023_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/18.0/quartus --verilog --config=C:/Users/Mehdi/AppData/Local/Temp/alt9335_509337511853849415.dir/0023_jtag_uart_0_gen//mehdi_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'mehdi_jtag_uart_0'
+Info: jtag_uart_0: "mehdi" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: nios2_gen2_0: "mehdi" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'mehdi_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/18.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=mehdi_onchip_memory2_0 --dir=C:/Users/Mehdi/AppData/Local/Temp/alt9335_509337511853849415.dir/0024_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/18.0/quartus --verilog --config=C:/Users/Mehdi/AppData/Local/Temp/alt9335_509337511853849415.dir/0024_onchip_memory2_0_gen//mehdi_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'mehdi_onchip_memory2_0'
+Info: onchip_memory2_0: "mehdi" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: pio_0: Starting RTL generation for module 'mehdi_pio_0'
+Info: pio_0:   Generation command is [exec C:/intelfpga_lite/18.0/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.0/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=mehdi_pio_0 --dir=C:/Users/Mehdi/AppData/Local/Temp/alt9335_509337511853849415.dir/0025_pio_0_gen/ --quartus_dir=C:/intelfpga_lite/18.0/quartus --verilog --config=C:/Users/Mehdi/AppData/Local/Temp/alt9335_509337511853849415.dir/0025_pio_0_gen//mehdi_pio_0_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_0: Done RTL generation for module 'mehdi_pio_0'
+Info: pio_0: "mehdi" instantiated altera_avalon_pio "pio_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "mehdi" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "mehdi" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "mehdi" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'mehdi_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.0/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.0/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.0/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.0/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.0/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=mehdi_nios2_gen2_0_cpu --dir=C:/Users/Mehdi/AppData/Local/Temp/alt9335_509337511853849415.dir/0028_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.0/quartus/bin64/ --verilog --config=C:/Users/Mehdi/AppData/Local/Temp/alt9335_509337511853849415.dir/0028_cpu_gen//mehdi_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2022.12.09 18:24:39 (*) Starting Nios II generation
+Info: cpu: # 2022.12.09 18:24:39 (*)   Checking for plaintext license.
+Info: cpu: # 2022.12.09 18:24:40 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.0/quartus/bin64/
+Info: cpu: # 2022.12.09 18:24:40 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2022.12.09 18:24:40 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2022.12.09 18:24:40 (*)   Plaintext license not found.
+Info: cpu: # 2022.12.09 18:24:40 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2022.12.09 18:24:40 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2022.12.09 18:24:40 (*)   Creating all objects for CPU
+Info: cpu: # 2022.12.09 18:24:42 (*)   Generating RTL from CPU objects
+Info: cpu: # 2022.12.09 18:24:42 (*)   Creating plain-text RTL
+Info: cpu: # 2022.12.09 18:24:43 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'mehdi_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Mehdi/Desktop/BE FINAL/F6_Barre/mehdi/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: mehdi: Done "mehdi" with 23 modules, 36 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

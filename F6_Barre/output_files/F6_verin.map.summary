@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Dec 11 13:32:39 2022
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : F6_verin
+Top-level Entity Name : top
+Family : Cyclone IV E
+Total logic elements : 2,094
+    Total combinational functions : 1,845
+    Dedicated logic registers : 1,078
+Total registers : 1078
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 175,104
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

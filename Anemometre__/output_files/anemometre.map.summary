@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Dec 10 17:33:15 2022
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : anemometre
+Top-level Entity Name : anemometre
+Family : Cyclone IV E
+Total logic elements : 981
+    Total combinational functions : 590
+    Dedicated logic registers : 754
+Total registers : 754
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 24,576
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

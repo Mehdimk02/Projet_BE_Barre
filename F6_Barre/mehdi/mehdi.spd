@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="simulation/mehdi.vhd" type="VHDL" />
+ <topLevel name="mehdi" />
+ <deviceFamily name="cycloneive" />
+ <modelMap
+   controllerPath="mehdi.onchip_memory2_0"
+   modelPath="mehdi.onchip_memory2_0" />
+</simPackage>

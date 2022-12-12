@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/Mehdi/Desktop/M2_SME/TP_VHDL/Projet BE/Anémomètre/registre.vhd}
+vcom -93 -work work {C:/Users/Mehdi/Desktop/M2_SME/TP_VHDL/Projet BE/Anémomètre/front_des.vhd}
+vcom -93 -work work {C:/Users/Mehdi/Desktop/M2_SME/TP_VHDL/Projet BE/Anémomètre/compteur.vhd}
+vcom -93 -work work {C:/Users/Mehdi/Desktop/M2_SME/TP_VHDL/Projet BE/Anémomètre/comparateur.vhd}
+vcom -93 -work work {C:/Users/Mehdi/Desktop/M2_SME/TP_VHDL/Projet BE/Anémomètre/anemometre.vhd}
+
